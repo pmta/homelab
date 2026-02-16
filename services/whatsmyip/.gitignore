@@ -1,0 +1,62 @@
+# Binaries
+/bin/
+/bin/*
+/whatsmyip
+
+# Build outputs
+/out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs, pid files
+*.log
+server.log
+server.pid
+podman.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+
+# Dependency directories
+vendor/
+
+# Test output
+coverage.out
+*.cover
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Containers and archives
+*.tar
+*.img
+
+# Envfiles
+.env
+.env.*
+
+# Go build cache
+Godeps/
+
+# Ignore local generated files
+/web/static/
+
+# CI
+.circleci/
+.github/workflows/
+
+# Terraform
+.terraform/
+
+# Ignore node_modules if any
+node_modules/

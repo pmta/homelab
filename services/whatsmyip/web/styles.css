@@ -1,0 +1,5 @@
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: #f7fafc; color: #0f172a; display:flex; align-items:center; justify-content:center; height:100vh; margin:0 }
+main { text-align:center; padding:2rem; background:white; border-radius:8px; box-shadow:0 6px 18px rgba(12,22,39,0.08); max-width:420px }
+h1 { margin:0 0 0.5rem 0; font-size:1.25rem }
+.ip { font-weight:700; font-size:1.5rem; margin:0.75rem 0 }
+.note { color:#475569; font-size:0.9rem }
